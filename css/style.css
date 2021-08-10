@@ -2,24 +2,26 @@ body {
     background: #7063a6;
 }
 
-h1, p {
+h1, p, footer {
     text-align: center;
-    color: white;
+}
+
+h1, p {
+    color: rgba(255, 255, 255, 0.757);
 }
 
 footer {
-    text-align: center;
+    color: darkblue;
 }
 
 footer a {
     margin: 0 10px;
-    color: aliceblue;
     text-align: center;
 }
 
 .lunarEclipse-photo {
     display: block;
-    max-width: 100%;
+    width: 600px;
     border-radius: 10px;
     margin: 30px auto;
 }
